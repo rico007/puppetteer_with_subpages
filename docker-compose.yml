@@ -3,7 +3,7 @@ version: '3.8'
 services:
   puppeteer-scraper:
     build: .
-    container_name: puppeteer-scraper
+    container_name: puppeteer-scraper-with-subpages
     environment:
       - NODE_ENV=production
       - MAX_DEPTH=2
