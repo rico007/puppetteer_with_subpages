@@ -10,6 +10,8 @@ services:
       - MAX_PAGES=20
     volumes:
       - .:/app
+    ports:
+      - "3001:3001"
     deploy:
       resources:
         limits:
