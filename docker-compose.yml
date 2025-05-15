@@ -12,9 +12,4 @@ services:
       - .:/app
     ports:
       - "3001:3001"
-    deploy:
-      resources:
-        limits:
-          memory: 2g
-          cpus: '1.0'
     restart: unless-stopped
